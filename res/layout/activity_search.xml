@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal" >
+    
+    <ImageView
+    android:layout_width="200dp"
+    android:layout_height="80dp"
+    android:background="@drawable/logo_dico"
+    android:layout_margin="30dp"
+     />
+    
+   
+    
+    <Button
+     android:id="@+id/btDico"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+     android:text="DICO"
+     />
+    
+    <Button
+        android:id="@+id/btInfos"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+     android:text="INFOS"
+     />
+
+</LinearLayout>

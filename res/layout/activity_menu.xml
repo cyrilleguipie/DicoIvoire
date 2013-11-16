@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+     >
+    
+    
+    <ImageView
+    android:layout_width="200dp"
+    android:layout_height="80dp"
+    android:background="@drawable/logo_dico"
+    android:layout_margin="30dp"
+     />
+    
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:text="CHOISIR LA LANGUE"
+    android:textColor="#ef4136"
+     />
+    
+    <Button
+     android:id="@+id/btBaoule"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+     android:text="BAOULE"
+     />
+    
+    <Button
+        android:id="@+id/btBete"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+     android:text="BETE"
+     />
+    <Button
+        android:id="@+id/btMalinke"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+     android:text="MALINKE"
+     />
+    <Button
+        android:id="@+id/btSenoufo"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+     android:text="SENOUFO"
+     />
+
+</LinearLayout>
