@@ -18,21 +18,7 @@ public class SearchActivity extends Activity {
 		btDico = (Button)findViewById(R.id.btDico);
 		btInfos = (Button)findViewById(R.id.btInfos);
 		
-		if(getIntent().getExtras() != null){
-			
-			if((getIntent().getExtras().getString("dico")).equals("baoule")){
-				btInfos.setText("Infos sur les Baoules");
-				
-			}else if((getIntent().getExtras().getString("dico")).equals("bete")){
-				btInfos.setText("Infos sur les Betes");
-			}
-			else if((getIntent().getExtras().getString("dico")).equals("malinke")){
-				btInfos.setText("Infos sur les Malinkes");
-				
-			}else if((getIntent().getExtras().getString("dico")).equals("senoufo")){
-				btInfos.setText("Infos sur les Senoufos");
-			}
-		}
+		
 		btInfos.setOnClickListener(new OnClickListener() {
 			
 			@Override
